@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TechSpec Catalog - Корзина</title>
+  <link rel="stylesheet" href="C:\4 курс\Мобилка\Лр5\static\cart.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-badge">TS</span>
+        <span>TechSpec Catalog</span>
+      </div>
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Главная</a></li>
+          <li><a href="cart.html" class="nav-link active">Корзина</a></li>
+          <li><a href="favorites.html" class="nav-link">Избранное</a></li>
+          <li><a href="profile.html" class="nav-link">Профиль</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Корзина</h1>
+
+    <div class="cart-layout">
+      <section class="cart-items">
+        <article class="cart-item">
+          <div class="cart-item-media"></div>
+          <div class="cart-item-info">
+            <h2 class="cart-item-title">iPhone 15 Pro Max</h2>
+            <span class="spec-tag">256GB SSD</span>
+            <div class="cart-item-price">2,749 BYN</div>
+          </div>
+          <div class="cart-item-actions">
+            <div class="quantity-controls">
+              <button class="btn-qty">-</button>
+              <span class="qty-count">1</span>
+              <button class="btn-qty">+</button>
+            </div>
+            <button class="btn-remove" title="Удалить">✕</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="cart-summary">
+        <h2 class="summary-title">Итого</h2>
+        <div class="summary-row">
+          <span>Товары (1)</span>
+          <span>2,749 BYN</span>
+        </div>
+        <div class="summary-row">
+          <span>Доставка</span>
+          <span>Бесплатно</span>
+        </div>
+        <div class="summary-divider"></div>
+        <div class="summary-row summary-total">
+          <span>К оплате:</span>
+          <span>2,749 BYN</span>
+        </div>
+        <button class="btn-primary">Перейти к оформлению</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 TechSpec Catalog</p>
+  </footer>
+
+</body>
+</html>
